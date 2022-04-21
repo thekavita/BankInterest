@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bank System</title>
+</head>
+
+<body>
+    <h1>Bank Interest Calculate</h1>
+   <div class="container">
+
+       <table class="test">
+           <thead>
+               <tr>
+                   <th>Account Holder's Name</th>
+                   <th>Bank Balance</th>
+                <th>Balance after Interest</th>
+                
+            </tr>
+            <tr>
+                <td><input type="text" placeholder = "Enter Account Holder Name"></td>
+                <td> <input type="number" class="in" min="0" id="input-1" placeholder="Enter Your Balance" onkeyup="oncalculate()"> </td>
+                <td id="data-1"></td>
+
+            </tr>
+            <tr>
+                <td><input type="text" placeholder = "Enter Account Holder Name"></td>
+                <td> <input type="number" min="0" class="in" id="input-2" placeholder="Enter Your Balance" onkeyup="oncalculate()"> </td>
+                <td id="data-2"></td>
+                
+            </tr>
+            <tr>
+                <td><input type="text" placeholder = "Enter Account Holder Name"></td>
+                <td> <input type="number" min="0" class="in" id="input-3" placeholder="Enter Your Balance" onkeyup="oncalculate()"> </td>
+                <td id="data-3"></td>
+
+            </tr>
+            <tr>
+                <td><input type="text" placeholder = "Enter Account Holder Name"></td>
+                <td> <input type="number" min="0" class="in" id="input-4" placeholder="Enter Your Balance" onkeyup="oncalculate()"> </td>
+                <td id="data-4"></td>
+                
+            </tr>
+        </thead>
+    </table>
+    
+</div>
+<div class="lower">
+<details>
+    <summary>Note:-</summary>
+    <br>
+
+    <ul>
+        <li>If balance is greater than 200000 then add 10% interest and deduct 0.2% maintainenct Charges</li>
+        <li>If balance is greater than 100000 and less than equal to 200000 then add 5% interest and deduct 0.05%
+            maintainenct Charges</li>
+            <li>If balance is less than equal to 100000 then add 3% interest</li>
+        </ul>
+    </details>
+</div>
+<script src="interst.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(73, 206, 33, 0.521);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Table Section*/
+table{
+    background-color: white;
+}
+table, th, tr ,td{
+    border: 2px solid black;
+    padding: 2px;
+}
+th{
+    color: rgb(59, 57, 57);
+    background-color: rgba(27, 196, 159, 0.726);
+}
+
+/*Note Section*/
+.lower{
+    
+    margin-left: 20px;
+}
+summary{
+    font-size: 22px;
+    
+}
+.lower li{
+    font-size: 24px;
+    font-weight: 150;
+}
+
+.test{
+    width: 45vw;
+    height: 30vh;
+}
+/*Input Section*/
+input{
+    padding: 10px;
+    margin-right: -40px;
+    margin-left: 4px;
+    background-color:white;
+}
+input:hover{
+    background-color: rgba(138, 137, 137, 0.308);
+}
+
